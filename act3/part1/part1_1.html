@@ -441,22 +441,22 @@ document.write(`
 <span class="c1"># Define the neural network structure</span>
 <span class="k">def</span> <span class="nf">define_layers</span><span class="p">():</span>
     <span class="k">return</span> <span class="p">{</span>
-        <span class="s1">&#39;World&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Cosmos&#39;</span><span class="p">,</span> <span class="s1">&#39;Earth&#39;</span><span class="p">,</span> <span class="s1">&#39;Life&#39;</span><span class="p">,</span> <span class="s1">&#39;Sacrifice&#39;</span><span class="p">,</span> <span class="s1">&#39;Means&#39;</span><span class="p">,</span> <span class="s1">&#39;Ends&#39;</span><span class="p">,</span> <span class="p">],</span>
-        <span class="s1">&#39;Perception&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Parents&#39;</span><span class="p">],</span>
-        <span class="s1">&#39;Agency&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Street&#39;</span><span class="p">,</span> <span class="s1">&#39;Education&#39;</span><span class="p">],</span>
-        <span class="s1">&#39;Generativity&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Parasitism&#39;</span><span class="p">,</span> <span class="s1">&#39;Network&#39;</span><span class="p">,</span> <span class="s1">&#39;Commensalism&#39;</span><span class="p">],</span>
-        <span class="s1">&#39;Physicality&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Offense&#39;</span><span class="p">,</span> <span class="s1">&#39;Lethality&#39;</span><span class="p">,</span>  <span class="s1">&#39;Self-Belief&#39;</span><span class="p">,</span> <span class="s1">&#39;Immunity&#39;</span><span class="p">,</span> <span class="s1">&#39;Defense&#39;</span><span class="p">]</span>
+        <span class="s1">&#39;World&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Cosmos&#39;</span><span class="p">,</span> <span class="s1">&#39;Earth&#39;</span><span class="p">,</span> <span class="s1">&#39;Life&#39;</span><span class="p">,</span> <span class="s1">&#39;Prometheus&#39;</span><span class="p">,</span> <span class="s1">&#39;Means&#39;</span><span class="p">,</span> <span class="s1">&#39;Ends&#39;</span><span class="p">,</span> <span class="p">],</span>
+        <span class="s1">&#39;Perception&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Inherit&#39;</span><span class="p">],</span>
+        <span class="s1">&#39;Agency&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Goat&#39;</span><span class="p">,</span> <span class="s1">&#39;Sheep&#39;</span><span class="p">],</span>
+        <span class="s1">&#39;Generativity&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Parasite&#39;</span><span class="p">,</span> <span class="s1">&#39;Mutualist&#39;</span><span class="p">,</span> <span class="s1">&#39;Commensal&#39;</span><span class="p">],</span>
+        <span class="s1">&#39;Physicality&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Fire&#39;</span><span class="p">,</span> <span class="s1">&#39;Everlasting&#39;</span><span class="p">,</span>  <span class="s1">&#39;Scapegoat&#39;</span><span class="p">,</span> <span class="s1">&#39;Prepared&#39;</span><span class="p">,</span> <span class="s1">&#39;Kingdom&#39;</span><span class="p">]</span>
     <span class="p">}</span>
 
 <span class="c1"># Assign colors to nodes</span>
 <span class="k">def</span> <span class="nf">assign_colors</span><span class="p">():</span>
     <span class="n">color_map</span> <span class="o">=</span> <span class="p">{</span>
-        <span class="s1">&#39;yellow&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Parents&#39;</span><span class="p">],</span>
-        <span class="s1">&#39;paleturquoise&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Ends&#39;</span><span class="p">,</span> <span class="s1">&#39;Education&#39;</span><span class="p">,</span> <span class="s1">&#39;Commensalism&#39;</span><span class="p">,</span> <span class="s1">&#39;Defense&#39;</span><span class="p">],</span>
-        <span class="s1">&#39;lightgreen&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Means&#39;</span><span class="p">,</span> <span class="s1">&#39;Network&#39;</span><span class="p">,</span> <span class="s1">&#39;Immunity&#39;</span><span class="p">,</span> <span class="s1">&#39;Self-Belief&#39;</span><span class="p">,</span> <span class="s1">&#39;Lethality&#39;</span><span class="p">],</span>
+        <span class="s1">&#39;yellow&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Inherit&#39;</span><span class="p">],</span>
+        <span class="s1">&#39;paleturquoise&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Ends&#39;</span><span class="p">,</span> <span class="s1">&#39;Sheep&#39;</span><span class="p">,</span> <span class="s1">&#39;Commensal&#39;</span><span class="p">,</span> <span class="s1">&#39;Kingdom&#39;</span><span class="p">],</span>
+        <span class="s1">&#39;lightgreen&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Means&#39;</span><span class="p">,</span> <span class="s1">&#39;Mutualist&#39;</span><span class="p">,</span> <span class="s1">&#39;Prepared&#39;</span><span class="p">,</span> <span class="s1">&#39;Scapegoat&#39;</span><span class="p">,</span> <span class="s1">&#39;Everlasting&#39;</span><span class="p">],</span>
         <span class="s1">&#39;lightsalmon&#39;</span><span class="p">:</span> <span class="p">[</span>
-            <span class="s1">&#39;Life&#39;</span><span class="p">,</span> <span class="s1">&#39;Sacrifice&#39;</span><span class="p">,</span> <span class="s1">&#39;Street&#39;</span><span class="p">,</span>
-            <span class="s1">&#39;Parasitism&#39;</span><span class="p">,</span> <span class="s1">&#39;Offense&#39;</span>
+            <span class="s1">&#39;Prometheus&#39;</span><span class="p">,</span> <span class="s1">&#39;Life&#39;</span><span class="p">,</span> <span class="s1">&#39;Goat&#39;</span><span class="p">,</span>
+            <span class="s1">&#39;Parasite&#39;</span><span class="p">,</span> <span class="s1">&#39;Fire&#39;</span>
         <span class="p">],</span>
     <span class="p">}</span>
     <span class="k">return</span> <span class="p">{</span><span class="n">node</span><span class="p">:</span> <span class="n">color</span> <span class="k">for</span> <span class="n">color</span><span class="p">,</span> <span class="n">nodes</span> <span class="ow">in</span> <span class="n">color_map</span><span class="o">.</span><span class="n">items</span><span class="p">()</span> <span class="k">for</span> <span class="n">node</span> <span class="ow">in</span> <span class="n">nodes</span><span class="p">}</span>
@@ -496,7 +496,7 @@ document.write(`
         <span class="n">G</span><span class="p">,</span> <span class="n">pos</span><span class="p">,</span> <span class="n">with_labels</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">node_color</span><span class="o">=</span><span class="n">node_colors</span><span class="p">,</span> <span class="n">edge_color</span><span class="o">=</span><span class="s1">&#39;gray&#39;</span><span class="p">,</span>
         <span class="n">node_size</span><span class="o">=</span><span class="mi">3000</span><span class="p">,</span> <span class="n">font_size</span><span class="o">=</span><span class="mi">9</span><span class="p">,</span> <span class="n">connectionstyle</span><span class="o">=</span><span class="s2">&quot;arc3,rad=0.2&quot;</span>
     <span class="p">)</span>
-    <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">&quot;Ayesha Ofori&quot;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">15</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">&quot;For I was a Commensal by thy Deeds&quot;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">15</span><span class="p">)</span>
     <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 
 <span class="c1"># Run the visualization</span>
@@ -506,7 +506,7 @@ document.write(`
 </div>
 </details>
 <div class="cell_output docutils container">
-<img alt="../../_images/9f9d682fddd308f4796e69e44ba3c587bef79533c658047f1df4eb778c8bbd24.png" src="../../_images/9f9d682fddd308f4796e69e44ba3c587bef79533c658047f1df4eb778c8bbd24.png" />
+<img alt="../../_images/9f83796c46504638d0694b33875395b3438df6a9aefe7ba653643dd7171ae0e2.png" src="../../_images/9f83796c46504638d0694b33875395b3438df6a9aefe7ba653643dd7171ae0e2.png" />
 </div>
 </div>
 <figure class="align-default" id="id2">
